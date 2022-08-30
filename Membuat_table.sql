@@ -1,5 +1,7 @@
-CREATE TABLE produk (
-    Id int NOT NULL PRIMARY KEY AUTO_INCREMENT,
-    nama_produk varchar(200) NOT NULL
+use belajar_database;
+CREATE TABLE category (
+   id VARCHAR(10) NOT NULL,
+   nama VARCHAR(100) NOT NULL,
+   PRIMARY KEY (id)
  
-);
+)ENGINE = InnoDB;

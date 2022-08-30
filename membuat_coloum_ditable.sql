@@ -1,4 +1,8 @@
-INSERT INTO produk (nama_produk,harga_produk)
+use belajar_database;
+INSERT INTO category (id, harga_produk)
 VALUES 
-('Ciki', '2500'),
-('Susu','2500')
+('Jam', '3500'),
+('Kaos', '3500'),
+('Baju', '3500'),
+('Celana', '3500'),
+('Mouse', '3500')

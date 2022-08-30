@@ -1,1 +1,1 @@
-CREATE DATABASE belajar_database;
+CREATE DATABASE belajar_db;

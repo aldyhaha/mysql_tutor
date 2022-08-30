@@ -1,2 +1,3 @@
+use belajar_database;
 ALTER TABLE produk
-ADD harga_produk int NOT NULL;
+ADD COLUMN category_id VARCHAR(10);
