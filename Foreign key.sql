@@ -1,3 +1,3 @@
 use belajar_database;
-ALTER TABLE produk
-ADD FOREIGN KEY (category_id) REFERENCES category(id);
+ALTER TABLE orders_product
+ADD FOREIGN KEY (product_id) REFERENCES produk(id);
