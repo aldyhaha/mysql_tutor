@@ -1,0 +1,7 @@
+ALTER TABLE produk
+ADD FOREIGN KEY (category_id) REFERENCES category(id)
+ON UPDATE CASCADE
+ON DELETE CASCADE;
+
+--On update bertujuan untuk mengubah sebuah id di dalam values 
+--On Delete untuk menghapus values yang ada di colomn

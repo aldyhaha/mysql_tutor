@@ -1,8 +1,8 @@
 use belajar_database;
-INSERT INTO category (id, harga_produk)
+INSERT INTO profil (alamat, nomor_hp, tanggal_lahir, tempat_lahir)
 VALUES 
-('Jam', '3500'),
-('Kaos', '3500'),
-('Baju', '3500'),
-('Celana', '3500'),
-('Mouse', '3500')
+('Kalisumber', '0896858658543', 2021-03-15, 'Subang'),
+('Durian', '089685867543', 2021-03-14, 'Bandung'),
+('KaliMerah', '089634854543', 2021-03-16, 'Cikarang'),
+('Pabuaran', '089685812543', 2021-03-17, 'Karawang'),
+('Sukaraja', '089685694543', 2021-03-18, 'Cikampek');
